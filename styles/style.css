@@ -66,12 +66,12 @@ video {
   white-space: nowrap;
 }
 
-.content {
+.content { /*корректировка отступов*/
   display: flex;
-  gap: 30px;
-  margin: 0 30px;
+  gap: 32px;
+  margin: 38px 29px 118px;
   inline-size: 100%;
-  padding-bottom: 35px;
+  padding-bottom: 209px;
 }
 
 .result {
@@ -80,8 +80,8 @@ video {
 
 .result__video-container {
   position: relative;
-  inline-size: 711px;
-  margin: 0 0 11px;
+  inline-size: 710px;
+  margin: 0 0 9px;
 }
 
 .search-form {
@@ -100,7 +100,7 @@ video {
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
   border: none;
   inline-size: 100%;
 }
@@ -221,7 +221,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  margin-top: 40px;/*корректировка отступов*/
   color: #fff;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -239,15 +239,15 @@ video {
   overflow-y: auto;
   block-size: 298px;
   scrollbar-width: thin; /*убрано скрытие скролла*/
+  padding-top: 2px;
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  padding-top: 32px;
 }
 
 .content__card-link {
   display: block;
-  margin: 2px;
   text-decoration: none;
 }
 
@@ -277,7 +277,6 @@ video {
 }
 
 .content__video-card-title {
-  padding: 2px 2px 5px;
   color: #fff;
   font-family: Oswald, sans-serif;
   font-weight: 700;
